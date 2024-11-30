@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-04T16:57:16 IST" name="Default suite" finished-at="2024-09-04T16:57:33 IST" duration-ms="16778">
+    <groups>
+    </groups>
+    <test started-at="2024-09-04T16:57:16 IST" name="Default test" finished-at="2024-09-04T16:57:33 IST" duration-ms="16778">
+      <class name="com.learning_TestNG.Learning_External_Report">
+        <test-method is-config="true" signature="reportConfiguration()[pri:0, instance:com.learning_TestNG.Learning_External_Report@712625fd]" started-at="2024-09-04T16:57:16 IST" name="reportConfiguration" finished-at="2024-09-04T16:57:16 IST" duration-ms="193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportConfiguration -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:com.learning_TestNG.Learning_External_Report@712625fd]" started-at="2024-09-04T16:57:16 IST" name="launchBrowser" finished-at="2024-09-04T16:57:20 IST" duration-ms="4105" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="loginToDWS(java.lang.reflect.Method)[pri:0, instance:com.learning_TestNG.Learning_External_Report@712625fd]" started-at="2024-09-04T16:57:20 IST" name="loginToDWS" finished-at="2024-09-04T16:57:22 IST" duration-ms="1692" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.learning_TestNG.Learning_External_Report.addAddressTest() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToDWS -->
+        <test-method signature="addAddressTest()[pri:0, instance:com.learning_TestNG.Learning_External_Report@712625fd]" started-at="2024-09-04T16:57:22 IST" name="addAddressTest" finished-at="2024-09-04T16:57:32 IST" duration-ms="9852" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAddressTest -->
+        <test-method is-config="true" signature="logoutFromDWS()[pri:0, instance:com.learning_TestNG.Learning_External_Report@712625fd]" started-at="2024-09-04T16:57:32 IST" name="logoutFromDWS" finished-at="2024-09-04T16:57:33 IST" duration-ms="896" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromDWS -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.learning_TestNG.Learning_External_Report@712625fd]" started-at="2024-09-04T16:57:33 IST" name="closeBrowser" finished-at="2024-09-04T16:57:33 IST" duration-ms="193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="closeReport()[pri:0, instance:com.learning_TestNG.Learning_External_Report@712625fd]" started-at="2024-09-04T16:57:33 IST" name="closeReport" finished-at="2024-09-04T16:57:33 IST" duration-ms="360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeReport -->
+      </class> <!-- com.learning_TestNG.Learning_External_Report -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

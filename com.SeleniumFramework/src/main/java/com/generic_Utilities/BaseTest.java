@@ -5,15 +5,10 @@ import java.time.Duration;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.edge.EdgeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Optional;
-import org.testng.annotations.Parameters;
-
 import com.objectRepository.HomePage;
 import com.objectRepository.LoginPage;
 import com.objectRepository.WelcomePage;
@@ -21,20 +16,11 @@ import com.objectRepository.WelcomePage;
 public class BaseTest {
 
 	public WebDriver driver;
-	public static WebDriver sDriver;
 	
-	@Parameters("browser")
 	@BeforeClass(alwaysRun = true)
-	public void launchBrowser(@Optional("chrome") String browser) {
+	public void launchBrowser() {
 		
-		if (browser.equals("chrome")) {
-			driver = new ChromeDriver();
-		} else if (browser.equals("firefox")) {
-			driver = new FirefoxDriver();
-		} else if (browser.equals("edge")) {
-			driver = new EdgeDriver();
-		}
-		sDriver = driver;
+		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		driver.get(FileUtility.getDataFromPropertiesFile("url"));

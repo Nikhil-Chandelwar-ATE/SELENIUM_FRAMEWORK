@@ -51,6 +51,4 @@ public class WelcomePage {
 	public WebElement getWishlistLink() {
 		return wishlistLink;
 	}
-	
-	
 }
